@@ -15,6 +15,13 @@ class  Main{
         for(Color x: Color.values()){
             System.out.println(x.equals(Color.BLUE));
         }
+
+        Color j=Color.BLUE;
+
+
+        System.out.println(j.equals(Color.BLUE));
+
+
     }
 }
 

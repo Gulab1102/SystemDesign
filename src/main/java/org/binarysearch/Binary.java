@@ -6,7 +6,7 @@ public class Binary {
 
     static void search(int arr[],int key){
 
-        int index= Arrays.binarySearch(arr,key);
+        int index= Arrays.binarySearch(arr,0,1,key);
 
         if(index>=0){
             System.out.println(arr[index+1]);
